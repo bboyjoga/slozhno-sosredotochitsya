@@ -37,7 +37,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
-  @media (width < 1024px) 
+  background-color: url(../images/cover-image-light.png);
+  @media (width < 1024px)
   {
     --header-shadow-color: #FF8DCB;
   }
