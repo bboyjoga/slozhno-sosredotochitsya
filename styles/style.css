@@ -37,7 +37,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .header__theme-menu-item:hover {
