@@ -186,8 +186,8 @@ button:disabled {
   font-weight: 400;
 }
 
-.pic {
-  object-fit: contain;
+.img {
+  object-fit: cover;
   object-position: center;
   background-size: cover;
   width: 100%;

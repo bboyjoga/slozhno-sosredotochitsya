@@ -3,7 +3,8 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
+:root.theme-light 
+{
   /* Переменные светлой темы */  
   --header-text-color: #FFC2E6;
   --header-shadow-color: #ff0070;
@@ -18,7 +19,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root 
+  {
         /* Дублируем переменные светлой темы */  
         --header-text-color: #FFC2E6;
         --header-shadow-color: #ff0070;
@@ -39,7 +41,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
-  @media (width < 1024px) {
+  @media (width < 1024px) 
+  {
     --header-shadow-color: #FF8DCB;
   }
 }
