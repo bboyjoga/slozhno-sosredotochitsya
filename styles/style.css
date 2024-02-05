@@ -277,6 +277,10 @@ button:disabled {
     padding-right: 20px;
   }
 
+  .picture {
+    margin-top: 10px;
+  }
+
   .main__content:nth-child(2n+1) {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -341,6 +345,10 @@ button:disabled {
  .header__theme-menu-list {
   display: flex;
   flex-direction: row;
+ }
+
+ .main__content:nth-child(odd) .card .paragraph {
+  min-width: 648.92px;
  }
 
  .header__theme-menu {
