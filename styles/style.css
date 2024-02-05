@@ -38,7 +38,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 10px;
+  gap: 15px;
 }
 
 .header__theme-menu-item:hover {
@@ -264,6 +264,16 @@ button:disabled {
   }
   
   .header::after {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .footer::before {
+    right: 20px;
+    top: 20px;
+  }
+  
+  .footer::after {
     left: 20px;
     bottom: 20px;
   }
