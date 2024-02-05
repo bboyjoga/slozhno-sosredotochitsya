@@ -9,6 +9,8 @@
   --heading-card-color: #000028;
   --button-hover-color: #FF91C1;
   --accent-font: 'IBM Plex mono';
+  --header-rec: visible;
+  --background-image: url(../images/cover-image-dark.png);
 }
 
 /*
