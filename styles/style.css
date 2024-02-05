@@ -290,6 +290,10 @@ button:disabled {
     grid-column: 2/3;
   }
 
+  .main__content:nth-child(even) .heading__section {
+    max-width: 236px;
+  }
+
   .picture {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
