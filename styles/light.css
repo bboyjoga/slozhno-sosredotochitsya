@@ -11,6 +11,7 @@
   --accent-font: 'IBM Plex mono';
   --header-rec: hidden;
   --background-image: url(../images/cover-image-light.png);
+  --background-color: url(../images/cover-image-light.png);
 }
 
 .page.theme_light {
@@ -26,6 +27,7 @@
   --accent-font: 'IBM Plex mono';
   --header-rec: hidden;
   --background-image: url(../images/cover-image-light.png);
+  --background-color: url(../images/cover-image-light.png);
   --header-rec: hidden;
 }
 
@@ -43,6 +45,7 @@
     --accent-font: 'IBM Plex mono';
     --header-rec: hidden;
     --background-image: url(../images/cover-image-light.png);
+    --background-color: url(../images/cover-image-light.png);
     }
 }
 

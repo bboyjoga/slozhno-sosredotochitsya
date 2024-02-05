@@ -11,6 +11,7 @@
   --accent-font: 'IBM Plex mono';
   --header-rec: visible;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark {
@@ -26,6 +27,7 @@
   --accent-font: 'IBM Plex mono';
   --header-rec: visible;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,5 +44,6 @@
   --accent-font: 'IBM Plex mono';
   --header-rec: visible;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: url(../images/cover-image-dark.png);
   }
   }
