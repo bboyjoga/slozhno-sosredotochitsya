@@ -52,11 +52,8 @@
 }
 
 .header__theme-menu-button_active:disabled {
-  pointer-events: none;
-}
-
-.header__theme-menu-button_active:disabled {
   border: 1px solid var(--decor-elements-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button {
@@ -306,6 +303,7 @@
   }
 
   .main__content:nth-child(odd) > *:not(:first-child) {
+      display: grid;
       grid-column: 2/3;
   }
 
@@ -373,11 +371,13 @@
   }
 
   .main__content:nth-child(even) {
+      display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, min-content);
   }
 
   .main__content:nth-child(even) .heading__section {
+      display: grid;
       grid-column: 1/4;
       max-width: 315px;
   }
