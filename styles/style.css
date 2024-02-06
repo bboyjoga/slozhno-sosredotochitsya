@@ -8,7 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: var(--background-image, #000028);
-  background-color: var(--heading-card-color, #000028);
+  background-color: var(--background-color, #000028);
   overflow: auto;
 }
 
