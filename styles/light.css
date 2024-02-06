@@ -1,52 +1,37 @@
 :root.theme-light {
-  --header-text-color: #FFC2E6;
-  --header-shadow-color: #ff0070;
-  --decor-text-color: #353430;
-  --link-shadow-color: #FF8DCB;
-  --background-text-color: #FF8DCB;
+  --main-page-color: #ff8dcb;
+  --header-text-color: #ffc2e6;
+  --decor-elements-color: #353430;
   --text-color: #353430;
-  --heading-section-color: #353430;
   --heading-card-color: #353430;
-  --button-hover-color: #ADA5A6;
-  --accent-font: 'IBM Plex mono';
+  --button-hover-color: #ada5a6;
   --header-rec: hidden;
   --background-image: url(../images/cover-image-light.png);
-  --background-color: #FFF1F7;
+  --background-color: #fff1f7;
 }
 
 .page.theme_light {
-  --header-text-color: #FFC2E6;
-  --header-shadow-color: #ff0070;
-  --decor-text-color: #353430;
-  --link-shadow-color: #FF8DCB;
-  --background-text-color: #FF8DCB;
+  --main-page-color: #ff8dcb;
+  --header-text-color: #ffc2e6;
+  --decor-elements-color: #353430;
   --text-color: #353430;
-  --heading-section-color: #353430;
   --heading-card-color: #353430;
-  --button-hover-color: #ADA5A6;
-  --accent-font: 'IBM Plex mono';
+  --button-hover-color: #ada5a6;
   --header-rec: hidden;
   --background-image: url(../images/cover-image-light.png);
-  --background-color: #FFF1F7;
-  --header-rec: hidden;
+  --background-color: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --header-text-color: #FFC2E6;
-    --header-shadow-color: #ff0070;
-    --decor-text-color: #353430;
-    --link-shadow-color: #FF8DCB;
-    --background-text-color: #FF8DCB;
-    --text-color: #353430;
-    --heading-section-color: #353430;
-    --heading-card-color: #353430;
-    --button-hover-color: #ADA5A6;
-    --accent-font: 'IBM Plex mono';
-    --header-rec: hidden;
-    --background-image: url(../images/cover-image-light.png);
-    --background-color: #FFF1F7;
-    }
+      --main-page-color: #ff8dcb;
+      --header-text-color: #ffc2e6;
+      --decor-elements-color: #353430;
+      --text-color: #353430;
+      --heading-card-color: #353430;
+      --button-hover-color: #ada5a6;
+      --header-rec: hidden;
+      --background-image: url(../images/cover-image-light.png);
+      --background-color: #fff1f7;
+  }
 }
-
-

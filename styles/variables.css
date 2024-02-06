@@ -1,20 +1,12 @@
 :root {
-  --header-text-color: #DB00FF;
-  --header-shadow-color: #ff0070;
-  --decor-text-color: #ff0070;
-  --link-shadow-color: #ff0070;
-  --background-text-color: #ff0070;
-  --text-color: #F1B2CE;
-  --heading-section-color: #ff0070;
+  --main-page-color: #ff0070;
+  --header-text-color: #db00ff;
+  --text-color: #f1b2ce;
   --heading-card-color: #000028;
-  --button-hover-color: #FF91C1;
-  --accent-font: 'IBM Plex mono';
+  --button-hover-color: #ff91c1;
+  --decor-elements-color: #ff0070;
+  --accent-font: "IBM Plex mono", Arial, sans-serif;
   --header-rec: visible;
   --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000028;
 }
 
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
