@@ -52,7 +52,7 @@
 }
 
 .header__theme-menu-button_active:disabled {
-  border: 1px solid var(--decor-elements-color);
+  outline: 1px solid var(--decor-elements-color);
   pointer-events: none;
 }
 
@@ -359,6 +359,8 @@
   .header__theme-menu-list {
       display: flex;
       flex-direction: row;
+      margin-right: 0px;
+      gap: 10px;
   }
 
   .main__content:nth-child(odd) .card .paragraph {
